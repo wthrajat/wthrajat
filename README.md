@@ -1,4 +1,4 @@
-### I like C
+### chhapri readme show
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=wthrajat&layout=compact&theme=algolia)
 
