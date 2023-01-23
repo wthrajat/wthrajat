@@ -1,4 +1,4 @@
-### profile readme for chhapri teens
+### profile readme beans for chhapri teens
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=wthrajat&layout=compact&theme=algolia)
 
