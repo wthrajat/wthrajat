@@ -2,6 +2,6 @@
 
 
 
-<!--- <a href="">
-  <img align="center" src="https://spotify-github-profile.vercel.app/api/view?uid=312mjqnhb5c73kvsmjzjizlrzx4u&cover_image=true&theme=natemoo-re&show_offline=true&background_color=241f31&bar_color=08b1e1&bar_color_cover=false" />
-</a> --->
+<p align="center">
+<img src="https://spotify-github-profile.vercel.app/api/view?uid=312mjqnhb5c73kvsmjzjizlrzx4u&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&bar_color=1c71d8&bar_color_cover=false" />
+</p>
