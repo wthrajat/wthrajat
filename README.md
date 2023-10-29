@@ -1,4 +1,4 @@
-Lazy 20 year old programmer
+Hi!
 <img src="neon1.gif" height=0.5px width="100%">
 
 <p align="center">
