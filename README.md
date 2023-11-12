@@ -1,10 +1,11 @@
 Hi!
 <p align="center">
-<img src="https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=00000000&card_width=&custom_title=My%20GitHub%20stats:" style="vertical-align:middle" />
+<img src="https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&hide_border=true&theme=dark#gh-dark-mode-only&bg_color=00000000&card_width=&custom_title=My%20GitHub%20stats:" style="vertical-align:middle" />
+<img src="https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&hide_border=true&theme=default#gh-light-mode-only&bg_color=00000000&card_width=&custom_title=My%20GitHub%20stats:" style="vertical-align:middle" />
 </p>
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=wthrajat&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=wthrajat&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+[![Rajat's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=wthrajat&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+[![Rajat's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=wthrajat&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 
 <!--
 ### 🎶 Vibing to :)
