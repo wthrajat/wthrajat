@@ -1,6 +1,6 @@
 Hi!
 <p align="center">
-<img src="https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&hide_border=true&bg_color=161B22&text_color=c9d1d9&title_color=50a6ff&icon_color=3572a5&card_width=&custom_title=My%20GitHub%20stats:" style="vertical-align:middle" />
+<img src="https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&hide_border=true&bg_color=161B22&text_color=c9d1d9&title_color=50a6ff&icon_color=3572a5&card_width=&custom_title=My%20GitHub%20stats:&theme=transparent" style="vertical-align:middle" />
 </p>
 
 <!--
