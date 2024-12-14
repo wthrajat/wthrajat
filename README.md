@@ -1,6 +1,6 @@
-[![Rajat's GitHub stats-Dark](https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&show_stars=false&count_private=true&theme=dark#gh-dark-mode-only&card_width=&custom_title=My%20GitHub%20stats&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/wthrajat/wthrajat#gh-dark-mode-only)
+[![Rajat's GitHub stats-Dark](https://rajat-anurag-grs.vercel.app/api?username=wthrajat&show_icons=true&show_stars=false&count_private=true&theme=dark#gh-dark-mode-only&card_width=&custom_title=My%20GitHub%20stats&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/wthrajat/wthrajat#gh-dark-mode-only)
 
-[![Rajat's GitHub stats-Light](https://grs-vercel-54nx-q514uhgwr-wthrajat.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&theme=default#gh-light-mode-only&card_width=&custom_title=My%20GitHub%20stats)](https://github.com/wthrajat/wthrajat#gh-light-mode-only)
+[![Rajat's GitHub stats-Light](https://rajat-anurag-grs.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&theme=default#gh-light-mode-only&card_width=&custom_title=My%20GitHub%20stats)](https://github.com/wthrajat/wthrajat#gh-light-mode-only)
 
 
 <!--
