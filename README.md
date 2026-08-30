@@ -5,9 +5,15 @@
   <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
     <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;count_private=true&amp;theme=default#gh-light-mode-only" width="55%" alt="Light GitHub stats">
   </a>
-  <img src="vertical-divider.svg" width="3%" alt="">
-  <a href="https://giphy.com/gifs/manutd-mufc-ggmu-paul-scholes-qmNbLfKPaPwYBytIDV">
-    <img src="https://media.giphy.com/media/qmNbLfKPaPwYBytIDV/giphy.gif" width="25%" alt="Paul Scholes GIF via GIPHY">
+</p>
+
+<p align="center">
+  <img src="horizontal-divider.svg" width="55%" alt="">
+</p>
+
+<p align="center">
+  <a href="https://giphy.com/gifs/real-fortune-gareth-v3iRhBnwO17aw">
+    <img src="https://media.giphy.com/media/v3iRhBnwO17aw/giphy.gif" width="55%" alt="Gareth Bale GIF via GIPHY">
   </a>
 </p>
 

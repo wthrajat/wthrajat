@@ -1,0 +1,16 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="960"
+  height="17"
+  viewBox="0 0 960 17"
+>
+  <defs>
+    <linearGradient id="divider" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8c959f" stop-opacity="0" />
+      <stop offset="0.08" stop-color="#8c959f" stop-opacity="0.7" />
+      <stop offset="0.92" stop-color="#8c959f" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#8c959f" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect x="24" y="8" width="912" height="1" rx="0.5" fill="url(#divider)" />
+</svg>
