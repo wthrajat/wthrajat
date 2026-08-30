@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;show_stars=false&amp;count_private=true&amp;theme=dark&amp;show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage#gh-dark-mode-only" height="195" alt="Dark GitHub stats">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;show_stars=false&amp;count_private=true&amp;theme=dark#gh-dark-mode-only" height="195" alt="Dark GitHub stats">
   </a>
   <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
     <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;count_private=true&amp;theme=default#gh-light-mode-only" height="195" alt="Light GitHub stats">
