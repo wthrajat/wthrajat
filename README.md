@@ -1,7 +1,15 @@
-[![Dark](https://rajat-anurag-grs.vercel.app/api?username=wthrajat&show_icons=true&show_stars=false&count_private=true&theme=dark#gh-dark-mode-only&card_width=&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/wthrajat/wthrajat#gh-dark-mode-only)
-
-[![Light](https://rajat-anurag-grs.vercel.app/api?username=wthrajat&show_icons=true&count_private=true&theme=default#gh-light-mode-only&card_width=)](https://github.com/wthrajat/wthrajat#gh-light-mode-only)
-
+<p align="center">
+  <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;show_stars=false&amp;count_private=true&amp;theme=dark&amp;show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage#gh-dark-mode-only" height="195" alt="Dark GitHub stats">
+  </a>
+  <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;count_private=true&amp;theme=default#gh-light-mode-only" height="195" alt="Light GitHub stats">
+  </a>
+  <img src="vertical-divider.svg" height="195" width="25" alt="">
+  <a href="https://giphy.com/gifs/Lqsij1GjWKHLy">
+    <img src="https://media.giphy.com/media/Lqsij1GjWKHLy/giphy.gif" height="195" alt="Animated GIF via GIPHY">
+  </a>
+</p>
 
 <!--
 ### 🎶 Vibing to :)
