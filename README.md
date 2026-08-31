@@ -1,19 +1,19 @@
 <p align="center">
   <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;show_stars=false&amp;count_private=true&amp;theme=dark#gh-dark-mode-only" width="55%" alt="Dark GitHub stats">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;show_stars=false&amp;count_private=true&amp;theme=dark#gh-dark-mode-only" width="480" alt="Dark GitHub stats">
   </a>
   <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;count_private=true&amp;theme=default#gh-light-mode-only" width="55%" alt="Light GitHub stats">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;count_private=true&amp;theme=default#gh-light-mode-only" width="480" alt="Light GitHub stats">
   </a>
 </p>
 
 <p align="center">
-  <img src="horizontal-divider.svg" width="55%" alt="">
+  <img src="neon1.gif" width="480" alt="">
 </p>
 
 <p align="center">
   <a href="https://giphy.com/gifs/real-fortune-gareth-v3iRhBnwO17aw">
-    <img src="https://media.giphy.com/media/v3iRhBnwO17aw/giphy.gif" width="55%" alt="Baleeeeeeee">
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNyZmZyY2V2em51MGFrYnEzaWN5a3V3bm1sMHZhdjVmdHVpbzhzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v3iRhBnwO17aw/giphy.gif" width="480" alt="Baleeeeeeee">
   </a>
 </p>
 
