@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://giphy.com/gifs/real-fortune-gareth-v3iRhBnwO17aw">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNyZmZyY2V2em51MGFrYnEzaWN5a3V3bm1sMHZhdjVmdHVpbzhzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v3iRhBnwO17aw/giphy.gif" width="480" alt="Baleeeeeeee">
+    <img src="assets/gareth-bale.gif" width="480" alt="Baleeeeeeee">
   </a>
 </p>
 
