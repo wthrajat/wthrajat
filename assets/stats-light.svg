@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Rajat Khanduri's GitHub Stats, Rank: A++</title>
-        <desc id="descId">Total Stars Earned: 144, Total Commits  : 1053, Total PRs: 2123, Total Issues: 73, Contributed to (last year): 49</desc>
+        <desc id="descId">Total Stars Earned: 144, Total Commits  : 1054, Total PRs: 2123, Total Issues: 73, Contributed to (last year): 49</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 46.849000609035556;
+        stroke-dashoffset: 46.8350118567853;
       }
     }
   
