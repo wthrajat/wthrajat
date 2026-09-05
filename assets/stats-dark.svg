@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">my gh stats, Rank: A+</title>
-        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5247, contributed to (last year): 49</desc>
+        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5248, contributed to (last year): 49</desc>
         <style>
           .header {
             font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -23,10 +23,14 @@
           
     .stat {
       font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #D6E7FF;
+      letter-spacing: 0.15px;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
       .stat { font-size:12px; }
+    }
+    .stat-value {
+      filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.28));
     }
     .stagger {
       opacity: 0;
@@ -35,6 +39,7 @@
     .rank-text {
       font: 800 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #D6E7FF;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
+      filter: drop-shadow(0 0 10px rgba(34, 211, 238, 0.3));
     }
     .rank-percentile-header {
       font-size: 13px;
@@ -42,12 +47,35 @@
     .rank-percentile-text {
       font-size: 15px;
     }
-    
+
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
       fill: #5FABEE;
       display: block;
+    }
+    [data-icon-for="stars"] {
+      filter: drop-shadow(0 0 4px rgba(248, 216, 71, 0.35));
+    }
+    [data-icon-for="commits"] {
+      filter: drop-shadow(0 0 4px rgba(88, 166, 255, 0.4));
+    }
+    [data-icon-for="prs"] {
+      filter: drop-shadow(0 0 4px rgba(191, 145, 243, 0.4));
+    }
+    [data-icon-for="issues"] {
+      filter: drop-shadow(0 0 4px rgba(121, 255, 151, 0.3));
+    }
+    [data-icon-for="contribs"] {
+      filter: drop-shadow(0 0 4px rgba(34, 211, 238, 0.38));
+    }
+    [data-icon-for="reviews"],
+    [data-icon-for="contributions"],
+    [data-icon-for="discussions_started"],
+    [data-icon-for="discussions_answered"],
+    [data-icon-for="prs_merged"],
+    [data-icon-for="prs_merged_percentage"] {
+      filter: drop-shadow(0 0 4px rgba(96, 165, 250, 0.3));
     }
 
     .rank-circle-rim {
@@ -57,15 +85,16 @@
       opacity: 0.15;
     }
     .rank-circle {
-      stroke: #5FABEE;
+      stroke: url(#rank-gradient);
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 5.5;
       stroke-linecap: round;
-      opacity: 0.9;
+      opacity: 0.95;
       transform-origin: -10px 8px;
       transform: rotate(-90deg);
       animation: rankAnimation 1s forwards ease-in-out;
+      filter: url(#rank-glow);
     }
     
     @keyframes rankAnimation {
@@ -114,12 +143,34 @@
             width="466"
           />
         </clipPath>
+        <linearGradient id="card-depth" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.16" />
+          <stop offset="45%" stop-color="#1d4ed8" stop-opacity="0.05" />
+          <stop offset="75%" stop-color="#1d4ed8" stop-opacity="0" />
+        </linearGradient>
         <linearGradient id="card-reflection" x1="0" y1="0" x2="0.7" y2="1">
           <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
           <stop offset="30%" stop-color="#ffffff" stop-opacity="0.09" />
           <stop offset="52%" stop-color="#ffffff" stop-opacity="0" />
         </linearGradient>
+        <linearGradient id="card-streak" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+          <stop offset="50%" stop-color="#dbeafe" stop-opacity="0.09" />
+          <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+        </linearGradient>
+        <radialGradient id="card-ambient" cx="0.5" cy="0.42" r="0.85">
+          <stop offset="0%" stop-color="#3b82f6" stop-opacity="0" />
+          <stop offset="72%" stop-color="#3b82f6" stop-opacity="0" />
+          <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.12" />
+        </radialGradient>
         <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow
+            dx="0"
+            dy="0"
+            stdDeviation="9"
+            flood-color="#3b82f6"
+            flood-opacity="0.16"
+          />
           <feDropShadow
             dx="0"
             dy="3"
@@ -144,8 +195,21 @@
           filter="url(#card-shadow)"
         />
 
+        <rect
+          data-testid="card-edge-highlight"
+          x="1.5"
+          y="1.5"
+          rx="4.5"
+          height="98%"
+          width="464"
+          fill="none"
+          stroke="#ffffff"
+          stroke-opacity="0.06"
+        />
+
         
       <g clip-path="url(#card-clip)">
+        <rect x="0" y="0" width="467" height="140" fill="url(#card-depth)" />
         <rect
           x="0"
           y="0"
@@ -153,6 +217,18 @@
           height="140"
           fill="url(#card-reflection)"
         />
+        <g opacity="0.55">
+          <polygon
+            points="84.1,0 158.8,0 46.7,140 -28.0,140"
+            fill="url(#card-streak)"
+          />
+          <polygon
+            points="196.1,0 233.5,0 121.4,140 84.1,140"
+            fill="url(#card-streak)"
+            opacity="0.7"
+          />
+        </g>
+        <rect x="0" y="0" width="467" height="140" fill="url(#card-ambient)" />
       </g>
     
 
@@ -163,10 +239,45 @@
           transform="translate(0, 25)"
         >
           
+    <defs>
+        <linearGradient id="rank-gradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#5FABEE" />
+          <stop offset="100%" stop-color="#22d3ee" />
+        </linearGradient>
+        <radialGradient id="rank-ambient" cx="0.5" cy="0.5" r="0.5">
+          <stop offset="0%" stop-color="#3b82f6" stop-opacity="0" />
+          <stop offset="62%" stop-color="#3b82f6" stop-opacity="0" />
+          <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.14" />
+        </radialGradient>
+        <filter
+          id="rank-glow"
+          x="-40%"
+          y="-40%"
+          width="180%"
+          height="180%"
+        >
+          <feDropShadow
+            dx="0"
+            dy="0"
+            stdDeviation="3.5"
+            flood-color="#22d3ee"
+            flood-opacity="0.35"
+          />
+        </filter>
+      </defs>
     <g data-testid="rank-circle"
           transform="translate(390.5, 35)">
+        <circle cx="-10" cy="8" r="58" fill="url(#rank-ambient)" />
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <path
+          d="M -38 2 A 40 40 0 0 1 -10 -32"
+          stroke="#ffffff"
+          stroke-opacity="0.32"
+          stroke-width="2.5"
+          fill="none"
+          stroke-linecap="round"
+        />
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
@@ -179,13 +290,13 @@
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
       
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+    <svg data-testid="icon" data-icon-for="commits" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">total commits:</text>
       <text
-        class="stat  bold"
+        class="stat stat-value  bold"
         x="219.01"
         y="12.5"
         data-testid="commits"
@@ -194,13 +305,13 @@
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+    <svg data-testid="icon" data-icon-for="prs" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">total prs merged:</text>
       <text
-        class="stat  bold"
+        class="stat stat-value  bold"
         x="219.01"
         y="12.5"
         data-testid="prs"
@@ -209,28 +320,28 @@
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+    <svg data-testid="icon" data-icon-for="contributions" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">total contributions:</text>
       <text
-        class="stat  bold"
+        class="stat stat-value  bold"
         x="219.01"
         y="12.5"
         data-testid="contributions"
-      >5,247</text>
+      >5,248</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+    <svg data-testid="icon" data-icon-for="contribs" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
     </svg>
   
       <text class="stat  bold" x="25" y="12.5">contributed to (last year):</text>
       <text
-        class="stat  bold"
+        class="stat stat-value  bold"
         x="219.01"
         y="12.5"
         data-testid="contribs"
