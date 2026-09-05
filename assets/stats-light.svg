@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">my gh stats, Rank: A++</title>
-        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5246, contributed to (last year): 49</desc>
+        <title id="titleId">my gh stats, Rank: A+</title>
+        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5247, contributed to (last year): 49</desc>
         <style>
           .header {
             font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -22,11 +22,11 @@
           }
           
     .stat {
-      font: 600 13px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
-      .stat { font-size:11px; }
+      .stat { font-size:12px; }
     }
     .stagger {
       opacity: 0;
@@ -114,10 +114,10 @@
             width="466"
           />
         </clipPath>
-        <linearGradient id="card-reflection" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
-          <stop offset="28%" stop-color="#ffffff" stop-opacity="0.04" />
-          <stop offset="48%" stop-color="#ffffff" stop-opacity="0" />
+        <linearGradient id="card-reflection" x1="0" y1="0" x2="0.7" y2="1">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
+          <stop offset="30%" stop-color="#ffffff" stop-opacity="0.09" />
+          <stop offset="52%" stop-color="#ffffff" stop-opacity="0" />
         </linearGradient>
         <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow
@@ -170,7 +170,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          A++
+          A+
         </text>
       
         </g>
@@ -219,7 +219,7 @@
         x="219.01"
         y="12.5"
         data-testid="contributions"
-      >5,246</text>
+      >5,247</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
