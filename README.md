@@ -1,6 +1,4 @@
-# About Me?
-
-Mechanical engineer by degree, software engineer by day — and a sucker for anything with an IC engine. Two wheels or four, if it goes vroom, I'm paying attention.
+Mechanical engineer by degree. I write software for a living and like spending time around cars and bikes. Anything with an IC engine makes me happy.
 
 ### Still wrenching?
 
