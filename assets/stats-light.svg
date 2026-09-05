@@ -1,15 +1,15 @@
 
       <svg
         width="467"
-        height="170"
-        viewBox="0 0 467 170"
+        height="140"
+        viewBox="0 0 467 140"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
         <title id="titleId">my gh stats, Rank: A++</title>
-        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5245, contributed to (last year): 49</desc>
+        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5246, contributed to (last year): 49</desc>
         <style>
           .header {
             font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -114,18 +114,11 @@
             width="466"
           />
         </clipPath>
-        <linearGradient id="card-sheen" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
-          <stop offset="32%" stop-color="#ffffff" stop-opacity="0" />
+        <linearGradient id="card-reflection" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+          <stop offset="28%" stop-color="#ffffff" stop-opacity="0.04" />
+          <stop offset="48%" stop-color="#ffffff" stop-opacity="0" />
         </linearGradient>
-        <pattern
-          id="card-pattern"
-          width="16"
-          height="16"
-          patternUnits="userSpaceOnUse"
-        >
-          <circle cx="1.5" cy="1.5" r="1" fill="#000000" fill-opacity="0.08" />
-        </pattern>
         <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow
             dx="0"
@@ -157,38 +150,17 @@
           x="0"
           y="0"
           width="467"
-          height="170"
-          fill="url(#card-sheen)"
-        />
-        <rect
-          x="0"
-          y="0"
-          width="467"
-          height="170"
-          fill="url(#card-pattern)"
+          height="140"
+          fill="url(#card-reflection)"
         />
       </g>
     
 
         
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >my gh stats</text>
-    </g>
-      </g>
-    
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 55)"
+          transform="translate(0, 25)"
         >
           
     <g data-testid="rank-circle"
@@ -247,7 +219,7 @@
         x="219.01"
         y="12.5"
         data-testid="contributions"
-      >5,245</text>
+      >5,246</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
