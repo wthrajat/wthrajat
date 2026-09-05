@@ -1,7 +1,7 @@
-- Mechanical engineer by degree. I like spending time around cars and bikes. Anything with an IC engine makes me happy.
 - Writing software for a living and I love FOSS.
+- I like spending time around cars and bikes. Anything with an IC engine makes me happy.
 
-### Under the hood
+#### Under the hood
 
 <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
   <img src="assets/stats-dark.svg#gh-dark-mode-only" width="440" alt="Dark GitHub stats">
