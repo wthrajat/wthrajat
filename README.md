@@ -2,14 +2,12 @@ Mechanical engineer by degree. I write software for a living and like spending t
 
 ### Still wrenching?
 
-<p align="center">
-  <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
-    <img src="assets/stats-dark.svg#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
-  </a>
-  <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
-    <img src="assets/stats-light.svg#gh-light-mode-only" width="540" alt="Light GitHub stats">
-  </a>
-</p>
+<a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
+  <img src="assets/stats-dark.svg#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
+</a>
+<a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
+  <img src="assets/stats-light.svg#gh-light-mode-only" width="540" alt="Light GitHub stats">
+</a>
 <!-- Stats snapshots refresh every 3 days via .github/workflows/update-stats.yml
      (private API: token comes from the GRS_TOKEN repo secret, never committed).
      Sources (3d Vercel edge cache, matches refresh cadence):
