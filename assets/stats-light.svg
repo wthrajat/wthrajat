@@ -9,38 +9,38 @@
         aria-labelledby="descId"
       >
         <title id="titleId">my gh stats, Rank: A++</title>
-        <desc id="descId">total commits  : 1062, total prs: 2124, total contributions: 5232, contributed to (last year): 49</desc>
+        <desc id="descId">total commits  : 1062, total prs: 2124, total contributions: 5233, contributed to (last year): 49</desc>
         <style>
           .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif;
             fill: #2f80ed;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
             /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
+            .header { font-size: 14.5px; }
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
+      font: 600 13px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
-      .stat { font-size:12px; }
+      .stat { font-size:11px; }
     }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58;
+      font: 800 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
-      font-size: 14px;
+      font-size: 13px;
     }
     .rank-percentile-text {
-      font-size: 16px;
+      font-size: 15px;
     }
     
     .not_bold { font-weight: 400 }
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 46.72345021976297;
+        stroke-dashoffset: 46.612723542396154;
       }
     }
   
@@ -247,7 +247,7 @@
         x="219.01"
         y="12.5"
         data-testid="contributions"
-      >5232</text>
+      >5233</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
