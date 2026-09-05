@@ -19,6 +19,13 @@ jobs:
           curl -fsSL "https://rajat-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&hide=stars,issues&show=contributions&custom_title=my%20gh%20stats&number_format=long&lowercase=true&theme=dark&cache_seconds=259200&token=${{ secrets.GRS_TOKEN }}" -o assets/stats-dark.svg
           curl -fsSL "https://rajat-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&hide=stars,issues&show=contributions&custom_title=my%20gh%20stats&number_format=long&lowercase=true&theme=default&cache_seconds=259200&token=${{ secrets.GRS_TOKEN }}" -o assets/stats-light.svg
 
+      - name: Verify snapshots
+        run: |
+          if grep -q "Access denied" assets/stats-dark.svg assets/stats-light.svg; then
+            echo "Fetched snapshots contain an access-denied card. Check that the GRS_TOKEN secret matches the Vercel env var." >&2
+            exit 1
+          fi
+
       - name: Commit snapshots if changed
         run: |
           git config user.name "github-actions[bot]"
