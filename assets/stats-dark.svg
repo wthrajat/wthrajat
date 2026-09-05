@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">my gh stats, Rank: A++</title>
-        <desc id="descId">total commits  : 1062, total prs: 2124, total contributions: 5234, contributed to (last year): 49</desc>
+        <desc id="descId">total commits  : 1070, total prs merged: 2125, total contributions: 5245, contributed to (last year): 49</desc>
         <style>
           .header {
             font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -53,16 +53,16 @@
     .rank-circle-rim {
       stroke: #5FABEE;
       fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
+      stroke-width: 5.5;
+      opacity: 0.15;
     }
     .rank-circle {
       stroke: #5FABEE;
       stroke-dasharray: 250;
       fill: none;
-      stroke-width: 6;
+      stroke-width: 5.5;
       stroke-linecap: round;
-      opacity: 0.8;
+      opacity: 0.9;
       transform-origin: -10px 8px;
       transform: rotate(-90deg);
       animation: rankAnimation 1s forwards ease-in-out;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 46.612723542396154;
+        stroke-dashoffset: 46.50177882240914;
       }
     }
   
@@ -115,24 +115,24 @@
           />
         </clipPath>
         <linearGradient id="card-sheen" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09" />
-          <stop offset="35%" stop-color="#ffffff" stop-opacity="0" />
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
+          <stop offset="32%" stop-color="#ffffff" stop-opacity="0" />
         </linearGradient>
         <pattern
           id="card-pattern"
-          width="14"
-          height="14"
+          width="16"
+          height="16"
           patternUnits="userSpaceOnUse"
         >
-          <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity="0.14" />
+          <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" fill-opacity="0.08" />
         </pattern>
         <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow
             dx="0"
             dy="3"
-            stdDeviation="5"
+            stdDeviation="4"
             flood-color="#000000"
-            flood-opacity="0.22"
+            flood-opacity="0.16"
           />
         </filter>
       </defs>
@@ -217,7 +217,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >1,062</text>
+      >1,070</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -226,13 +226,13 @@
       <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
     </svg>
   
-      <text class="stat  bold" x="25" y="12.5">total prs:</text>
+      <text class="stat  bold" x="25" y="12.5">total prs merged:</text>
       <text
         class="stat  bold"
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >2,124</text>
+      >2,125</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -247,7 +247,7 @@
         x="219.01"
         y="12.5"
         data-testid="contributions"
-      >5,234</text>
+      >5,245</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
