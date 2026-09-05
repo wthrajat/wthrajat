@@ -1,4 +1,5 @@
-Mechanical engineer by degree. I write software for a living and like spending time around cars and bikes. Anything with an IC engine makes me happy. I love free and open source software.
+- Mechanical engineer by degree. I like spending time around cars and bikes. Anything with an IC engine makes me happy.
+- Writing software for a living and I love FOSS.
 
 ### Under the hood
 
