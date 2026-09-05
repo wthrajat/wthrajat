@@ -16,7 +16,7 @@ jobs:
 
       - name: Fetch stats snapshots
         run: |
-          curl -fsSL "https://rajat-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&hide=stars,issues&show=contributions&custom_title=my%20gh%20stats&number_format=long&lowercase=true&theme=dark&cache_seconds=259200&token=${{ secrets.GRS_TOKEN }}" -o assets/stats-dark.svg
+          curl -fsSL "https://rajat-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&hide=stars,issues&show=contributions&custom_title=my%20gh%20stats&number_format=long&lowercase=true&theme=holi&cache_seconds=259200&token=${{ secrets.GRS_TOKEN }}" -o assets/stats-dark.svg
           curl -fsSL "https://rajat-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&hide=stars,issues&show=contributions&custom_title=my%20gh%20stats&number_format=long&lowercase=true&theme=default&cache_seconds=259200&token=${{ secrets.GRS_TOKEN }}" -o assets/stats-light.svg
 
       - name: Verify snapshots
