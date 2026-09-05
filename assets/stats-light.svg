@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Rajat Khanduri's GitHub Stats, Rank: A++</title>
-        <desc id="descId">Total Commits  : 1056, Total PRs: 2123, Contributed to (last year): 49</desc>
+        <title id="titleId">my gh stats, Rank: A++</title>
+        <desc id="descId">Total Commits  : 1057, Total PRs: 2123, Contributed to (last year): 49</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 46.80706342428194;
+        stroke-dashoffset: 46.79310373060098;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Rajat Khanduri's GitHub Stats</text>
+      >my gh stats</text>
     </g>
       </g>
     
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >1.1k</text>
+      >1057</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >2.1k</text>
+      >2123</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
