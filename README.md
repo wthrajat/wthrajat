@@ -1,6 +1,6 @@
-Mechanical engineer by degree. I write software for a living and like spending time around cars and bikes. Anything with an IC engine makes me happy.
+Mechanical engineer by degree. I write software for a living and like spending time around cars and bikes. Anything with an IC engine makes me happy. I love free and open source software.
 
-### Still wrenching?
+### Under the hood
 
 <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
   <img src="assets/stats-dark.svg#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
