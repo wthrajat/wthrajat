@@ -1,11 +1,16 @@
 <p align="center">
   <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;include_all_commits=true&amp;theme=dark&amp;cache_seconds=172800#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
+    <img src="assets/stats-dark.svg#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
   </a>
   <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;include_all_commits=true&amp;theme=default&amp;cache_seconds=172800#gh-light-mode-only" width="540" alt="Light GitHub stats">
+    <img src="assets/stats-light.svg#gh-light-mode-only" width="540" alt="Light GitHub stats">
   </a>
 </p>
+<!-- Stats snapshots refresh every 3 days via .github/workflows/update-stats.yml.
+     Sources (7d Vercel edge cache):
+     https://rajat-anurag-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&theme=dark&cache_seconds=604800
+     https://rajat-anurag-grs.vercel.app/api?username=wthrajat&show_icons=true&include_all_commits=true&theme=default&cache_seconds=604800
+-->
 
 <p align="center">
   <img src="neon1.gif" width="480" alt="">
