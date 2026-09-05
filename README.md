@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://github.com/wthrajat/wthrajat#gh-dark-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;theme=dark&amp;cache_seconds=172800#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;include_all_commits=true&amp;theme=dark&amp;cache_seconds=172800#gh-dark-mode-only" width="540" alt="Dark GitHub stats">
   </a>
   <a href="https://github.com/wthrajat/wthrajat#gh-light-mode-only">
-    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;theme=default&amp;cache_seconds=172800#gh-light-mode-only" width="540" alt="Light GitHub stats">
+    <img src="https://rajat-anurag-grs.vercel.app/api?username=wthrajat&amp;show_icons=true&amp;include_all_commits=true&amp;theme=default&amp;cache_seconds=172800#gh-light-mode-only" width="540" alt="Light GitHub stats">
   </a>
 </p>
 
