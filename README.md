@@ -1,5 +1,5 @@
-- Writing software for a living and I love FOSS.
-- I like spending time around cars and bikes. Anything with an IC engine makes me happy.
+- I love FOSS and write software for a living
+- When afk, I'm prolly spending time around cars & bikes. Anything with an IC engine makes me happy
 
 #### Under the hood
 
